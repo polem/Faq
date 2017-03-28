@@ -1,0 +1,5 @@
+less_more:
+    resource: "@FaqBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
