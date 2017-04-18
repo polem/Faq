@@ -1,0 +1,12 @@
+-
+    title: Catégorie principale
+    slug: category1
+
+-
+    title: Catégorie principale 2
+    slug: category2
+
+-
+    title: Catégorie secondaire
+    slug: category3
+    category: category2
