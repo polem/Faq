@@ -1,4 +1,4 @@
 services:
-#    less_more.example:
-#        class: Yoopies\FaqBundle\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
+    category.repository:
+        class: Yoopies\FaqBundle\Services\CategoryRepository
+        arguments: ['%kernel.root_dir%/../src/Yoopies/FaqBundle/Resources/config/categories.yml']

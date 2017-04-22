@@ -1,0 +1,11 @@
+<ul>
+    {% for category in categories %}
+    <li>
+        {{ category.title }}
+        {% if category.categories is not empty %}
+            {% include 'FaqBundle:Default:categoryList.html.twig' with {'categories': category.categories} only %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+

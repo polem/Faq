@@ -12,6 +12,10 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('FaqBundle:Default:index.html.twig');
+        $categories = $this->get('category.repository')->findAll();
+
+        return $this->render('FaqBundle:Default:index.html.twig', [
+            'categories' => $categories,
+        ]);
     }
 }

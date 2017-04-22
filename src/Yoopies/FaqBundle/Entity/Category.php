@@ -27,10 +27,13 @@ class Category
 
     /**
      * @param mixed $title
+     * @return $this
      */
     public function setTitle($title)
     {
         $this->title = $title;
+
+        return $this;
     }
 
     public function addCategory(self $category)

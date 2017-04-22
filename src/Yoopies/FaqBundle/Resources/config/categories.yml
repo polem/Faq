@@ -1,4 +1,9 @@
 -
+    title: Catégorie niveau 5 - 1
+    slug: category8
+    category: category7
+
+-
     title: Catégorie principale
     slug: category1
 
@@ -7,6 +12,36 @@
     slug: category2
 
 -
-    title: Catégorie secondaire
+    title: Catégorie niveau 5 - 2
+    slug: category9
+    category: category7
+
+-
+    title: Catégorie secondaire 1
     slug: category3
     category: category2
+
+-
+    title: Catégorie secondaire 2
+    slug: category4
+    category: category2
+
+-
+    title: Catégorie secondaire 3
+    slug: category5
+    category: category1
+
+-
+    title: Catégorie niveau 3 - 1
+    slug: category6
+    category: category5
+
+-
+    title: Catégorie niveau 4 - 1
+    slug: category7
+    category: category6
+
+-
+    title: Catégorie niveau 3 - 2
+    slug: category10
+    category: category5

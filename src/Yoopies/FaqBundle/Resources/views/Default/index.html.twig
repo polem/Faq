@@ -14,6 +14,8 @@
         </div>
     </div>
 
+    {% include 'FaqBundle:Default:categoryList.html.twig' with {'categories': categories} only %}
+
     <script src="{{ asset('assets/javascripts/libs/vue.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/vue.resource/1.2.0/vue-resource.min.js"></script>
     <script src="{{ asset('assets/javascripts/app/app.js') }}"></script>
